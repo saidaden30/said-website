@@ -1,0 +1,147 @@
+/*comont style*/
+body {
+	margin: 0px;
+	font-family: 'Roboto Serif', serif;
+
+	}
+
+.navigation-wrapper{
+	height: 190px;
+	background-color:#11122b;
+	color: #cbcbcb;
+	/*flex box container*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 100px;
+} 
+
+/* left column */
+.navigation-wrapper > .left-column{
+	display: flex;
+	align-items: center;
+}
+.navigation-wrapper > .left-column >.icon {
+margin-right: 15px;
+}
+ 
+.navigation-wrapper >.left-column > .contact-hours-wrapper  > .phone{
+	display: grid;
+    grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+.navigation-wrapper > .left-column >.contact-hours-wrapper >.hours{
+	font-family: 'Ubuntu', sans-serif;
+}
+.navigation-wrapper > .left-column > .icon a{
+	color:#cbcbcb
+}
+.navigation-wrapper > .left-column > .icon a:hover{
+	color: #cea135;
+	transition: 0.5s;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .phone a{
+	color:#cbcbcb;
+	text-decoration: none;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .phone a:hover{
+    color: #cea135;
+	transition: 0.5s;
+}
+
+
+/* center column */
+.navigation-wrapper > .center-column {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 120px;
+	width: 500px;
+}
+.navigation-wrapper > .center-column > .sweet {
+	display: flex;
+	justify-content: center;
+}
+.navigation-wrapper > .center-column >.sweet img {
+      width: 216px;
+	  height: 100%;
+	  align-items: center;
+}
+.navigation-wrapper > .center-column >.links-wrapper a {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: px;
+}
+.navigation-wrapper > .center-column >.links-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.links-wrapper > .link-wrapper a{
+	text-decoration: none;
+	font-family:'Times New Roman', Times, serif;
+	color: #cbcbcb;
+	transition: 0.5s;
+}
+.links-wrapper > .link-wrapper{
+	width: 70px;
+}
+
+.links-wrapper > .link-wrapper a:hover{
+	color: #cea135;
+	letter-spacing: 2px;
+}
+
+/* right column */
+.navigation-wrapper > .right-column{
+	display: flex;
+	align-items: center;
+}
+.navigation-wrapper > .right-column > .Address-wrapper{
+	text-align: right;
+	font-family: sans-serif;
+}
+.navigation-wrapper > .right-column > .Address-wrapper a {
+	color: #a9a4a4;
+	text-decoration: none;
+}
+.navigation-wrapper > .right-column > .Address-wrapper a:hover {
+	color: #cea135;
+	transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .contact-icon{
+	margin-left: 15px;
+	font-size: 2em;
+}
+.navigation-wrapper > .right-column >.contact-icon a {
+	color: #cbcbcb;
+}
+.navigation-wrapper > .right-column >.contact-icon a:hover{
+	color: #cea135;
+	transition: 0.5s;
+}
+/* hero section styles */
+.hero-section{
+	background-image: url(../images/fries\ pootato\ cheese.jpg);
+	padding: 100px;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero-section > .top-heading{
+	padding: 1px 20px;
+	background-color: #11122b;
+	color: #cbcbcb;
+	border-radius: 2px;
+	width: 210px;
+}
+.hero-section > .bottom-heading{
+	background-color: #cea135;
+	color: #11122b;
+	width: 210px;
+	padding: 1px 20px;
+	border-radius: 2px;
+	margin-top: 15px;
+
+}
